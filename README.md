@@ -211,18 +211,6 @@ ATCOT demonstrates consistent improvements over baseline methods:
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Citation
-
-If you use ATCOT in your research, please cite our paper:
-
-```bibtex
-@inproceedings{wei2024atcot,
-  title={ATCOT: Self-Correcting Chain-of-Thought Reasoning with Tool Feedback},
-  author={Wei, Lei and Dong, Xu and Peng, Xiao and Xie, Niantao and Wang, Bin},
-  booktitle={ICASSP 2024},
-  year={2024}
-}
-```
 
 ## Contact
 
