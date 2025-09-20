@@ -1,0 +1,66 @@
+{
+  "llm": {
+    "provider": "mock",
+    "model_name": "mock-llm",
+    "temperature": 0.7,
+    "max_tokens": 512
+  },
+  "planning": {
+    "max_planning_attempts": 3,
+    "confidence_threshold": 0.3,
+    "dependency_validation": true,
+    "fallback_strategy": "simple"
+  },
+  "execution": {
+    "max_candidates_per_step": 3,
+    "parallel_execution": true,
+    "timeout_seconds": 30.0,
+    "retry_failed_tools": true,
+    "max_retries": 2
+  },
+  "correction": {
+    "contradiction_threshold": 0.7,
+    "max_corrections": 5,
+    "improvement_threshold": 0.01,
+    "revision_strategy": "backward_traversal",
+    "enable_global_consistency": true
+  },
+  "consistency": {
+    "similarity_method": "simple",
+    "contradiction_method": "simple",
+    "semantic_threshold": 0.3,
+    "enable_numeric_checking": true
+  },
+  "logging_config": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "log_to_file": false,
+    "log_file_path": null
+  },
+  "tools": {
+    "calculator": {
+      "enabled": true,
+      "config_params": {}
+    },
+    "web_search": {
+      "enabled": true,
+      "config_params": {
+        "search_engine": "duckduckgo"
+      }
+    },
+    "python_interpreter": {
+      "enabled": true,
+      "config_params": {}
+    },
+    "wikipedia": {
+      "enabled": true,
+      "config_params": {
+        "language": "en"
+      }
+    }
+  },
+  "framework_version": "1.0.0",
+  "debug_mode": false,
+  "save_execution_trace": false,
+  "trace_output_dir": null
+}

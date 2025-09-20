@@ -1,0 +1,17 @@
+# Core dependencies for ATCOT framework
+aiohttp>=3.8.0
+asyncio-compat>=0.1.0
+
+# Optional LLM providers (install based on needs)
+openai>=1.0.0
+anthropic>=0.7.0
+
+# Development dependencies
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Documentation
+sphinx>=5.0.0
+sphinx-rtd-theme>=1.0.0
