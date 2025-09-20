@@ -24,7 +24,7 @@ The ATCOT framework implements a comprehensive state representation `S = {P, R, 
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/ChihayaAine/ATCOT.git
 cd ATCOT
 ```
 
@@ -33,7 +33,7 @@ cd ATCOT
 pip install -r requirements.txt
 ```
 
-3. Set up API keys (optional, for real LLM providers):
+3. Set up API keys (optional):
 ```bash
 export OPENAI_API_KEY="your-openai-key"
 export ANTHROPIC_API_KEY="your-anthropic-key"
